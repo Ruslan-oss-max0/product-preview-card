@@ -34,6 +34,8 @@ body {
     max-width: 375px;
     border-radius: 10px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .product-img img {
@@ -41,5 +43,3 @@ body {
     height: auto;
     display: block;
 }
-
-
