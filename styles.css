@@ -16,7 +16,9 @@
 }
 
 html {
-    font-family: Montserrat serif;
+    font-family: Montserrat, serif;
+    color: var(--main-grey);
+    font-size: 18px;
 }
 
 body {
@@ -42,4 +44,44 @@ body {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.container > div:nth-child(2) {
+    padding: 1.5rem;
+}
+
+.perfume-label {
+    margin-bottom: 10px;
+    letter-spacing: 0.2em;
+    font-size: 14px;
+}
+
+.perfume-title {
+    font-family: Fraunces, serif;
+    color: var(--main-dark);
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.perfume-description {
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.price {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-self: flex-start;
+}
+
+.price-discount {
+    font-family: Fraunces, serif;
+    color: var(--light-green);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.actual-price {
+    font-size: 14px;
 }
